@@ -3,7 +3,6 @@
 
 provider "tfe" {
   hostname = var.tfc_hostname
-  token = "l6r322VYYaOtag.atlasv1.20GYhoTtfK7hSaapwkaPP8AUP4ijj7dRzbRrPsua83ch2rELeKWupz2kFo6fBzZxKcg"
 }
 
 # Data source used to grab the project under which a workspace will be created.
